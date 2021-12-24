@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Frosty Kids swiper test </title>
+</head>
+
+<body>
+<div class="titre">
+  <h1>Frosty Kids Swiper test</h1>
+</div>
+
+   <!-- Swiper -->
+   <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./media/1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/5.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/6.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/7.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/8.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/9.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/10.jpg" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+<div class="container">
+  <div class="swiper mySwiper2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./media/11.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/12.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/13.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/14.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/15.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/16.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/17.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/18.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/19.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/20.jpg" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- initialisation du swiper sans passer par un fichier js -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 00,
+        stretch: 0,
+        depth: 00,
+        
+        modifier: 1,
+        slideShadows: false,
+      },
+         loop:true,
+         autoplay: {
+        delay: 2000,
+        disableOnInteraction:false,
+         },
+
+    });
+
+    var swiper = new Swiper(".mySwiper2", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 00,
+        stretch: 0,
+        depth: 00,
+        
+        modifier: 1,
+        slideShadows: false,
+      },
+         loop:true,
+         autoplay: {
+        delay: 2500,
+        disableOnInteraction:false,
+         },
+
+    });
+  </script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</body>
+
+</html>
