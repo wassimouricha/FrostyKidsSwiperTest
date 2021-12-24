@@ -1,2 +1,2 @@
-# sliderswiper.io
-A 3d reponsive swiper 
+# Double Swiper
+A double reponsive swiper test for the website
