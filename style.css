@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: rgb(255, 255, 255);
+  background: ("https://frostykids.com/wp-content/uploads/2021/12/minicart-frost-frostykids.mp4");
 }
 
 .swiper {
@@ -28,6 +28,7 @@ body {
   background-size: cover;
   width: 300px;
   height: 300px;
+  padding:15px;
   /* background: rgb(255, 255, 255); */
   /* -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006) ; */
 }
